@@ -18,8 +18,12 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    cheese_eq = cheesus & cheese_types
-    cheese_eq.join
+    cheese_eq = cheddar_cheese & cheese_types
+    cheese_test = cheese_eq.join
+  if cheese_test.include?("cheddar")
+    return cheese_test
+  else
+    nil
   end
 end
   # cheddar_cheese.tap do |cheesus|
