@@ -26,15 +26,4 @@ def find_the_cheese(cheddar_cheese)
     return nil
   end
 end
-  # cheddar_cheese.tap do |cheesus|
-  #   if cheesus & ["cheddar", "gouda", "camembert"]
-  #     return
 
-# def find_the_cheese(cheddar_cheese)
-#   cheese_types = ["cheddar", "gouda", "camembert"]
-#   if cheddar_cheese.include?(cheese_types)
-#     return cheddar_cheese[0]
-#   else
-#     nil
-#   end
-# end
