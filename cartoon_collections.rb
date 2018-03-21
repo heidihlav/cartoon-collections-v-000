@@ -23,7 +23,7 @@ def find_the_cheese(cheddar_cheese)
   if cheese_test.include?("cheddar")
     return cheese_test
   else
-    nil
+    return nil
   end
 end
   # cheddar_cheese.tap do |cheesus|
