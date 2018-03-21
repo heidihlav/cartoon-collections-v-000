@@ -17,10 +17,14 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(cheddar_cheese)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheddar_cheese.include?(cheese_types)
-    return cheddar_cheese[0]
-  else
-    nil
-  end
-end
+  cheddar_cheese.tap do |cheesus|
+    
+
+# def find_the_cheese(cheddar_cheese)
+#   cheese_types = ["cheddar", "gouda", "camembert"]
+#   if cheddar_cheese.include?(cheese_types)
+#     return cheddar_cheese[0]
+#   else
+#     nil
+#   end
+# end
